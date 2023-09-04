@@ -16,7 +16,6 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -88,8 +87,7 @@ class _MyHomePageState extends State<MyHomePage> {
         page = const HomePage();
         appBarText = 'Home';
     }
-    // This method is rerun every time setState is called, for instance as done
-    // by the _incrementCounter method above.
+    // This method is rerun every time setState is called
     return Scaffold(
         appBar: AppBar(
           backgroundColor: const Color(0xFF0756AF),
